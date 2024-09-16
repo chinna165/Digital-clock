@@ -1,0 +1,51 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    justify-content: center;
+    background-color: bisque;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.clock{
+    display: flex;
+}
+.clock div{
+    margin: 6px;
+
+}
+.clock span{
+    width: 100px;
+    height: 80px;
+    background-color: burlywood;
+    opacity: .6;
+    color: purple;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: rgb(174, 145, 107);
+    opacity: .9;
+}
+.clock #ap{
+    bottom: 0;
+    width: 60px;
+    height: 30px;
+    font-size: 30px;
+    background: rgb(201, 189, 174);
+
+}
